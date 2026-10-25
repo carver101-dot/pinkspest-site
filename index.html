@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pink's Pest Company | Coming Soon</title>
+<meta name="description" content="Pink's Pest Company. Old-fashioned service, modern technology. Coming soon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{background:#FBF5EA;color:#1B2A4A;font-family:'Roboto Slab',Georgia,serif;display:flex;flex-direction:column;min-height:100vh;border-top:8px solid #E8798F}
+main{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 20px}
+.logo{width:min(560px,92vw);height:auto}
+.rule{width:min(320px,70vw);height:0;border-top:1px solid #B8925A;margin:28px auto 22px;position:relative}
+.rule::after{content:"";position:absolute;left:50%;top:-5px;width:9px;height:9px;background:#FBF5EA;border:1px solid #B8925A;transform:translateX(-50%) rotate(45deg)}
+.tagline{font-size:clamp(1.1rem,3.2vw,1.6rem);font-weight:400;letter-spacing:.02em;max-width:640px}
+.soon{display:inline-block;margin-top:30px;padding:10px 30px;border-radius:999px;background:#1B2A4A;color:#FBF5EA;font-weight:700;letter-spacing:.25em;text-transform:uppercase;font-size:.95rem;box-shadow:0 0 0 4px #FBF5EA,0 0 0 5px #F6C9D2}
+footer{text-align:center;padding:18px;font-size:.85rem;color:#1B2A4A;border-top:1px solid #F6C9D2;background:#FBF5EA}
+</style>
+</head>
+<body>
+<main>
+<img class="logo" src="logo.png" alt="Pink's Pest Co.">
+<div class="rule"></div>
+<p class="tagline">Old-fashioned service, modern technology.</p>
+<span class="soon">Coming soon</span>
+</main>
+<footer>&copy; 2026 Pink's Pest Company</footer>
+</body>
+</html>
